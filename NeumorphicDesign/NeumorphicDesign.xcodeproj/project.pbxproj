@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDB5A0A726BFE80500540FC1 /* NeumorphicDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5A0A626BFE80500540FC1 /* NeumorphicDesignApp.swift */; };
+		CDB5A0A926BFE80500540FC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5A0A826BFE80500540FC1 /* ContentView.swift */; };
+		CDB5A0AB26BFE80A00540FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB5A0AA26BFE80A00540FC1 /* Assets.xcassets */; };
+		CDB5A0AE26BFE80A00540FC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB5A0AD26BFE80A00540FC1 /* Preview Assets.xcassets */; };
+		CDB5A0B626BFF7C700540FC1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5A0B526BFF7C700540FC1 /* HomeView.swift */; };
+		CDB5A0B826BFF7EF00540FC1 /* NeumorphismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5A0B726BFF7EF00540FC1 /* NeumorphismView.swift */; };
+		CDB5A0BB26BFFE5300540FC1 /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = CDB5A0BA26BFFE5300540FC1 /* Neumorphic */; };
+		CDB5A0BD26BFFE6D00540FC1 /* nenumorphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5A0BC26BFFE6D00540FC1 /* nenumorphicView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDB5A0A326BFE80500540FC1 /* NeumorphicDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphicDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB5A0A626BFE80500540FC1 /* NeumorphicDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicDesignApp.swift; sourceTree = "<group>"; };
+		CDB5A0A826BFE80500540FC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDB5A0AA26BFE80A00540FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB5A0AD26BFE80A00540FC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDB5A0AF26BFE80A00540FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB5A0B526BFF7C700540FC1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDB5A0B726BFF7EF00540FC1 /* NeumorphismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismView.swift; sourceTree = "<group>"; };
+		CDB5A0BC26BFFE6D00540FC1 /* nenumorphicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nenumorphicView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB5A0A026BFE80500540FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB5A0BB26BFFE5300540FC1 /* Neumorphic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDB5A09A26BFE80500540FC1 = {
+			isa = PBXGroup;
+			children = (
+				CDB5A0A526BFE80500540FC1 /* NeumorphicDesign */,
+				CDB5A0A426BFE80500540FC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB5A0A426BFE80500540FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB5A0A326BFE80500540FC1 /* NeumorphicDesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB5A0A526BFE80500540FC1 /* NeumorphicDesign */ = {
+			isa = PBXGroup;
+			children = (
+				CDB5A0A626BFE80500540FC1 /* NeumorphicDesignApp.swift */,
+				CDB5A0A826BFE80500540FC1 /* ContentView.swift */,
+				CDB5A0B526BFF7C700540FC1 /* HomeView.swift */,
+				CDB5A0B726BFF7EF00540FC1 /* NeumorphismView.swift */,
+				CDB5A0BC26BFFE6D00540FC1 /* nenumorphicView.swift */,
+				CDB5A0AA26BFE80A00540FC1 /* Assets.xcassets */,
+				CDB5A0AF26BFE80A00540FC1 /* Info.plist */,
+				CDB5A0AC26BFE80A00540FC1 /* Preview Content */,
+			);
+			path = NeumorphicDesign;
+			sourceTree = "<group>";
+		};
+		CDB5A0AC26BFE80A00540FC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDB5A0AD26BFE80A00540FC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB5A0A226BFE80500540FC1 /* NeumorphicDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB5A0B226BFE80A00540FC1 /* Build configuration list for PBXNativeTarget "NeumorphicDesign" */;
+			buildPhases = (
+				CDB5A09F26BFE80500540FC1 /* Sources */,
+				CDB5A0A026BFE80500540FC1 /* Frameworks */,
+				CDB5A0A126BFE80500540FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeumorphicDesign;
+			packageProductDependencies = (
+				CDB5A0BA26BFFE5300540FC1 /* Neumorphic */,
+			);
+			productName = NeumorphicDesign;
+			productReference = CDB5A0A326BFE80500540FC1 /* NeumorphicDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB5A09B26BFE80500540FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CDB5A0A226BFE80500540FC1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CDB5A09E26BFE80500540FC1 /* Build configuration list for PBXProject "NeumorphicDesign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB5A09A26BFE80500540FC1;
+			packageReferences = (
+				CDB5A0B926BFFE5300540FC1 /* XCRemoteSwiftPackageReference "neumorphic" */,
+			);
+			productRefGroup = CDB5A0A426BFE80500540FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB5A0A226BFE80500540FC1 /* NeumorphicDesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB5A0A126BFE80500540FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB5A0AE26BFE80A00540FC1 /* Preview Assets.xcassets in Resources */,
+				CDB5A0AB26BFE80A00540FC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB5A09F26BFE80500540FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB5A0B626BFF7C700540FC1 /* HomeView.swift in Sources */,
+				CDB5A0A926BFE80500540FC1 /* ContentView.swift in Sources */,
+				CDB5A0B826BFF7EF00540FC1 /* NeumorphismView.swift in Sources */,
+				CDB5A0BD26BFFE6D00540FC1 /* nenumorphicView.swift in Sources */,
+				CDB5A0A726BFE80500540FC1 /* NeumorphicDesignApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDB5A0B026BFE80A00540FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDB5A0B126BFE80A00540FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB5A0B326BFE80A00540FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NeumorphicDesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 693P93E2N6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NeumorphicDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trueddns.homenano.NeumorphicDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDB5A0B426BFE80A00540FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NeumorphicDesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 693P93E2N6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NeumorphicDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trueddns.homenano.NeumorphicDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB5A09E26BFE80500540FC1 /* Build configuration list for PBXProject "NeumorphicDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB5A0B026BFE80A00540FC1 /* Debug */,
+				CDB5A0B126BFE80A00540FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB5A0B226BFE80A00540FC1 /* Build configuration list for PBXNativeTarget "NeumorphicDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB5A0B326BFE80A00540FC1 /* Debug */,
+				CDB5A0B426BFE80A00540FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDB5A0B926BFFE5300540FC1 /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDB5A0BA26BFFE5300540FC1 /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDB5A0B926BFFE5300540FC1 /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CDB5A09B26BFE80500540FC1 /* Project object */;
+}
